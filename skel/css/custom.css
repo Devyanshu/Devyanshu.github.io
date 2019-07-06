@@ -21,4 +21,16 @@
     opacity: .8;
     font-weight: 300;
   }
-  
+  .copyright{
+   text-align: center;
+  }
+
+.primer-links{
+    text-decoration: none;
+}
+.primer-links:hover{
+    color: #000000;
+}
+.primer-links:visited{
+    color: #002fff;
+}
