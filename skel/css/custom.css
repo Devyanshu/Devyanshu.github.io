@@ -14,8 +14,13 @@
     margin-bottom: .5rem;
     color: #11DFC7;
   }
+  .value-projects {
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+  }
+
   .value-heading {
-    margin-bottom: .3rem;
+    margin-bottom: 1rem;
   }
   .value-description {
     opacity: .8;
