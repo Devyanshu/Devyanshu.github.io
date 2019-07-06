@@ -39,3 +39,14 @@
 .primer-links:visited{
     color: #002fff;
 }
+.post-date{
+    color:#010101;
+    float: left;
+}
+.post-author{
+    color:#010101;
+    float: right;
+}
+.post{
+    font-size: 1.2em;
+}
