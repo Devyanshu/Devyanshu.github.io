@@ -1,8 +1,10 @@
 .section {
-    padding: 8rem 0 7rem;
+    padding: 6rem 0 5rem;
     text-align: center;
   }
-  .section-heading,
+  .section-heading{
+    margin-bottom: 1.2rem;
+  }
   .section-description {
     margin-bottom: 1.2rem;
   }
