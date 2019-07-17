@@ -7,6 +7,7 @@
   }
   .section-description {
     margin-bottom: 1.2rem;
+    font-size: 1.3em;
   }
   .values {
     columns: #000000;
@@ -27,6 +28,7 @@
   .value-description {
     opacity: .8;
     font-weight: 300;
+    font-size: 1.3em;
   }
   .copyright{
    text-align: center;
