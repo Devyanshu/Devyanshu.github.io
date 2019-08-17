@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Internship at IIT Indore</title>
+    <meta name="description" content="Summer internship at IIT Indore.">
+    <meta name="author" content="Devyanshu Shukla">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize_min.css">
+    <link rel="stylesheet" href="../css/skeleton_min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <link rel="icon" type="image/png" href="../images/fav.png">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section">
+            <h1>Summer internship at IIT Indore</h1>
+        </div>
+        <div class="row">
+            <h6 class="post-date">July 13, 2019</h6>
+        </div>
+
+        <p>In the summer of 2019, I had the opportunity to work as a research intern at Indian Institute of
+            Technology, Indore under the guidance of Dr. Somnath Dey, Assistant professor and the then acting head of
+            Discipline of Computer Science and Engineering.</p>
+        <p>Together with a fellow intern, my work included research on Masterprint and ways to prevent it and
+            implementing
+            an <a class="post-link" href="https://www.sciencedirect.com/science/article/pii/S0957417417304360">algorithm
+                for robust matching
+                of partial fingerprints using minutiae and ridge shape features</a>.
+            <p>
+                After the initial research work, my first task was to familiarize myself with <a class="post-link"
+                    href="https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis">NIST
+                    Biometric Image Software (NBIS)</a> and process the <a class="post-link"
+                    href="https://en.wikipedia.org/wiki/Fingerprint_Verification_Competition">FVC</a> databases with it.
+                Afterwards, I created partial fingerprints using the FVC databases and running the Bozorth3 matching
+                algorithm on it for benchmarking. This results would then be compared to the to-be-made
+                algorithm. A huge number of partial images were generated from the FVC database, therefore, an automated
+                system was requred, it was achieved using Python, from <a class="post-link"
+                    href="https://github.com/Devyanshu/image-split-with-overlap">generating the partial
+                    fingerprints</a> to <a class="post-link"
+                    href="https://github.com/Devyanshu/NBIS_python#run_bozorth3py">running
+                    Bozorth3 algorithm</a> on them.
+            </p>
+            <p>
+                After the reference result was collected, the work on the algorithm implementaion began, it was wrtten
+                in
+                MATLAB because of heavy image processing tasks and computation. After 3-4 weeks, the implementation was
+                ready and it was run on the partial fingerprints and the results were collected for processing. The
+                results compared on a small set of images showed promsing results. As of writing this post, the results
+                are yet to be compared on the full database because of the computation time and size
+                of the partial fingerprint database. Once the data is processed and compared, the
+                results will be shown seperately in much more detail.
+            </p>
+            <p>
+                It was an amazing learning experience, both from academic and non-academic point of view. I learned
+                MATLAB, got better in using Linux, learned a lot about fingerprints and biometrics in general and
+                the importance of documentation. I also learned to work better in a team and to rebound from a
+                bad day at work and try to make the next one better.
+            </p>
+
+            <div class="copyright">
+                <h6>&copy; Devyanshu Shukla 2019</h6>
+            </div>
+    </div>
+
+</body>
+
+</html>
